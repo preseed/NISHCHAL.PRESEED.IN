@@ -106,8 +106,18 @@
     .navbar-custom .nav li a:hover {
         color: #A9A9A9;
     }
+    .sm-links {
+        float: right;
+        position: relative !important;
+    }
 }
 .text_cursive {
         font-style: oblique;
 
+}
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+  position: absolute;
 }
