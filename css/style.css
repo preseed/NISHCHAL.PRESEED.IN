@@ -109,6 +109,7 @@
     .sm-links {
         float: right;
         position: relative !important;
+        padding-top: 14px !important;
     }
 }
 .text_cursive {
