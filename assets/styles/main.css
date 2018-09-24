@@ -627,6 +627,7 @@ section.split .copy .content blockquote {
     line-height: 18px;
     margin-bottom: 40px;
     padding-bottom: 38px;
+    margin-top: 15px;
 }
 
 /* News Form
