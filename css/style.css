@@ -16,7 +16,7 @@
 }
 
 .navbar-custom, .navbar-brand, .navbar-toggle {
-    padding: 4px 6px;
+    padding: 4px 6px !important;
     font-size: 16px;
     color: #fff !important;
 }
@@ -27,9 +27,8 @@
 }
 
 .navbar-custom a {
-    color: #708090;
+    color: #fff;
 }
-
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -77,7 +76,7 @@
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+    
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
