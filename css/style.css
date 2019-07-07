@@ -128,3 +128,10 @@
 .quote_part {
     font-size: 20px !important;
 }
+
+#video_heading {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 1.1em;
+    padding-bottom: 0.6em;
+}
