@@ -43,6 +43,14 @@ strong {
 p a {
   border-bottom: 1px solid;
 }
+p
+{
+    text-align: justify!important;
+}
+h4{
+    text-align: justify;
+    line-height: 1.8!important;
+}
 
 /* Icons
 *********************************************************************************************/
@@ -251,8 +259,8 @@ section.split .copy .content h2 a {
 }
 
 section.split .copy .content p {
-  font-size: 22px;
-  line-height: 2.1428571435;
+  font-size: 18px;
+  line-height: 1.8;
   margin-bottom: 17px;
 }
 
