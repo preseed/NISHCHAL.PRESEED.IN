@@ -198,3 +198,11 @@ p.lead {
     letter-spacing: 1px;
     line-height: 160%;
 }
+.panel1-2{
+    width: 70%;
+}
+@media only screen and (max-width:750px){
+    .panel1-2{
+        width: 95%;
+    }
+}
