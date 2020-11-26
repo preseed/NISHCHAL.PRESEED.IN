@@ -1504,7 +1504,7 @@ you can use the generic selector below, but it's slower:
 
 /* Media Queries*/
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 980px) and (max-width: 1023px) {
 	header h1 {
 		font-size: 60px;
 	}

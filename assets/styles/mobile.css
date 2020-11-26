@@ -194,7 +194,7 @@
     #contact .media {
         opacity: .075;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 980px) {
 
         .subscribe {
             margin-top: 5px !important;
