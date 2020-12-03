@@ -199,11 +199,11 @@ p.lead {
     line-height: 160%;
 }
 .panel1-2{
-    width: 50%;
+    width: 60%;
 }
 @media only screen and (max-width:750px){
     .panel1-2{
-        width: 75%;
+        width: 85%;
     }
 }
 .sm-links{

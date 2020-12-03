@@ -76,3 +76,15 @@
 panel{
     width: 60%;
 }
+
+.pem{
+    font-size: 1em !important;
+    text-align: justify;
+    font-weight: 300 !important;
+}
+.pem2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+
+  }
