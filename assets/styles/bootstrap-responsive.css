@@ -864,7 +864,7 @@
   }
   .modal {
     position: fixed;
-    top: 20px;
+    top: 30vh;
     right: 20px;
     left: 20px;
     width: auto;
@@ -917,7 +917,7 @@
     margin-left: 0;
   }
   .modal {
-    top: 10px;
+    top: 100vh;
     right: 10px;
     left: 10px;
   }
