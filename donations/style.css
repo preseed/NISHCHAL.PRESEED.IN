@@ -27,6 +27,9 @@ h1{
 .p{
     color:  white !important;
 }
+.m-1{
+    margin: 1em !important;
+}
 .m-5{
     margin: 3em !important;
 }
