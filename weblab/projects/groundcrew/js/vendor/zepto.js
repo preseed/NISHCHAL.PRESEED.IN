@@ -1145,7 +1145,7 @@ window.Zepto = Zepto
       cssProperties = []
       // CSS transitions
       for (key in properties)
-        if (supportedTransforms.test(key)) transforms += key + '(' + properties[key] + ') '
+        if (supportedTransforms.test(key)) transforms += key + '(' perties[key] + ') '
         else cssValues[key] = properties[key], cssProperties.push(dasherize(key))
 
       if (transforms) cssValues[transform] = transforms, cssProperties.push(transform)
