@@ -308,3 +308,8 @@ h5 {
   width: 60%;
   padding: 10px;
 }
+.desc{
+  font-size: small;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.459);
+} 

@@ -885,3 +885,9 @@ section.split .copy .content blockquote {
           
       }
       }
+      .desc{
+        font-size: 10px !important;
+        font-weight: 300;
+        color: rgba(26, 25, 25, 0.849);
+        text-align: center;
+      } 
