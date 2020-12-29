@@ -303,3 +303,8 @@ img {
 h5 {
   color: rgb(0, 0, 0) !important;
 }
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
