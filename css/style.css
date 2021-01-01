@@ -211,12 +211,12 @@ p.lead {
 }
 .weblabiframe-height {
     overflow: hidden;
-    height: 320vh;
+    height: 340vh;
   }
   @media only screen and (max-width: 800px) {
     .weblabiframe-height {
       overflow: hidden;
-      height: 700vh !important;
+      height: 750vh !important;
     }
   }
   
