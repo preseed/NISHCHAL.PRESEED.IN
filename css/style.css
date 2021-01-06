@@ -4,120 +4,121 @@
 
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 .navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: "Roboto",sans-serif;
-    background-color: #000;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .navbar-custom .navbar-brand:focus {
-    outline: 0;
+  outline: 0;
 }
 
-.navbar-custom, .navbar-brand, .navbar-toggle {
-    padding: 4px 6px !important;
-    font-size: 16px;
-    color: #fff !important;
+.navbar-custom,
+.navbar-brand,
+.navbar-toggle {
+  padding: 4px 6px !important;
+  font-size: 16px;
+  color: #fff !important;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
+  outline: 0;
 }
 
 .navbar-custom a {
-    color: #fff;
+  color: #fff;
 }
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover {
-    outline: 0;
-    color: #2F4F4F;
-    background-color: transparent;
+  outline: 0;
+  color: #2f4f4f;
+  background-color: transparent;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
+  outline: 0;
+  background-color: transparent;
 }
 
 .navbar-custom .nav li.active {
-    outline: 0;
+  outline: 0;
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #A9A9A9;
+  color: #a9a9a9;
 }
 .menu_img {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .page-scroll {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-@media(min-width:980px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-    
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-    }
-        #nav-modified {
-            margin-left: 3%;
-    }
-    .cont_extra {
-        padding-top: 5%;
-    }
+@media (min-width: 980px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: #000;
+  }
+  #nav-modified {
+    margin-left: 3%;
+  }
+  .cont_extra {
+    padding-top: 5%;
+  }
 }
-@media(max-width:767px) {
-    .menu_img {
-        padding-left: 10px;
-    }
-    .logo {
-        padding-top: 10px;
-    }
-    .cont_extra {
-        padding-top: 10px;
-}
-    .navbar-custom a {
-        color: #fff;
-    }
-    .navbar-custom .nav li a:hover {
-        color: #A9A9A9;
-    }
-    .sm-links {
-        float: right;
-        position: relative !important;
-        padding-top: 14px !important;
-    }
+@media (max-width: 767px) {
+  .menu_img {
+    padding-left: 10px;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+  .cont_extra {
+    padding-top: 10px;
+  }
+  .navbar-custom a {
+    color: #fff;
+  }
+  .navbar-custom .nav li a:hover {
+    color: #a9a9a9;
+  }
+  .sm-links {
+    float: right;
+    position: relative !important;
+    padding-top: 14px !important;
+  }
 }
 .text_cursive {
-        font-style: oblique;
-
+  font-style: oblique;
 }
 .sm-links {
   padding: 10px;
@@ -126,22 +127,19 @@
   position: absolute;
 }
 #cover_quote {
-    padding:5px;
-    padding-top: 10px;
+  padding: 5px;
+  padding-top: 10px;
 }
 .quote_part {
-    font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 #video_heading {
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 1.1em;
-    padding-bottom: 0.6em;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 1.1em;
+  padding-bottom: 0.6em;
 }
-
-
-
 
 /* Cuuustom */
 
@@ -156,7 +154,6 @@
   background: #f1f1f1;
   padding: 20px 40px;
 }
-
 
 a,
 a:hover {
@@ -194,29 +191,28 @@ p.lead {
 }
 
 * {
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 1px;
-    line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  line-height: 160%;
 }
-.panel1-2{
-    width: 60%;
+.panel1-2 {
+  width: 60%;
 }
-@media only screen and (max-width:750px){
-    .panel1-2{
-        width: 95%;
-    }
+@media only screen and (max-width: 750px) {
+  .panel1-2 {
+    width: 95%;
+  }
 }
-.sm-links{
-    margin-right: 1px;
+.sm-links {
+  margin-right: 1px;
 }
 .weblabiframe-height {
+  overflow: hidden;
+  height: 400vh;
+}
+@media only screen and (max-width: 800px) {
+  .weblabiframe-height {
     overflow: hidden;
-    height: 340vh;
+    height: 950vh !important;
   }
-  @media only screen and (max-width: 800px) {
-    .weblabiframe-height {
-      overflow: hidden;
-      height: 750vh !important;
-    }
-  }
-  
+}
