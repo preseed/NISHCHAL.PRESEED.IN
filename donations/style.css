@@ -312,3 +312,16 @@ h5 {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.459);
 }
+.dropdown-menu li:hover {
+  background-color: black;
+  color: #fff;
+}
+.dropdown {
+  margin-top: 15px;
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.dropdown-toggle:hover {
+  color: #2f4f4f;
+}
