@@ -29,6 +29,64 @@ h1 {
   float: none;
   margin-right: -10px !important;
 }
+@media (max-width: 767px) {
+  .menu_img {
+    padding-left: 10px;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+  .cont_extra {
+    padding-top: 10px;
+  }
+  .navbar-custom a {
+    color: #fff;
+  }
+  .navbar-custom .nav li a:hover {
+    color: #a9a9a9;
+  }
+  .sm-links {
+    float: right;
+    position: relative !important;
+    padding-top: 14px !important;
+  }
+}
+.text_cursive {
+  font-style: oblique;
+}
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+@media (max-width: 767px) {
+  ul.nav.mobile {
+    width: unset !important;
+    float: unset !important;
+  }
+  .sm-links {
+    float: right;
+    position: relative !important;
+    padding-top: 15px !important;
+  }
+  #above_logo_text {
+    font-size: 2em;
+  }
+  .modal {
+    margin-top: 66em !important;
+  }
+}
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin-right: 1px;
+}
+.sm-links > a {
+  color: #fff !important;
+}
 .p {
   color: white !important;
 }
