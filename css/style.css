@@ -3,6 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Marck+Script";
 
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -214,6 +215,15 @@ p.lead {
   .weblabiframe-height {
     overflow: hidden;
     height: 530vh !important;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 6px !important;
   }
 }
 

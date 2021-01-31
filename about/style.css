@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato&subset=latin-ext);
 body {
   margin-top: 50px !important;
-  margin-left: 8px !important;
-  margin-right: 8px !important;
+  margin-left: 3px !important;
+  margin-right: 3px !important;
   background-color: #353c44 !important;
 }
 @media screen and (min-width: 800px) {
