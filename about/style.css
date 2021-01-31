@@ -383,3 +383,102 @@ h5 {
 .dropdown-toggle:hover {
   color: #f8cb00;
 }
+summary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.123);
+  color: rgb(255, 0, 64);
+  padding: 1.8rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.966);
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+}
+summary:hover,
+.yel-b:hover {
+  color: #000 !important;
+}
+
+.yel-sm-btn {
+  font-size: 1.3rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 1px rgb(255, 208, 0) !important;
+  color: rgb(255, 0, 64);
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 217, 0, 0.966) !important;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px !important;
+  text-align: center;
+  width: 60% !important;
+  text-decoration: none !important;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+}
+details > .iconbtn::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+  top: 15px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  left: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-minus:after,
+.plus-minus .collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.plus-minus:after {
+  content: "-";
+  top: -1px;
+}
+.plus-minus .collapsed:after {
+  content: "+";
+  top: 0;
+}
+.faq__content {
+  background-color: transparent;
+  padding: 15px;
+}
+.ayellow {
+  color: rgb(255, 208, 0) !important;
+}
