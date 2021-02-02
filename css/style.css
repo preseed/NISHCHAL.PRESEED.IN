@@ -336,3 +336,16 @@ details > summary::-webkit-details-marker {
     width: 80% !important;
   }
 }
+.dropdown-menu li:hover {
+  background-color: black;
+  color: #fff;
+}
+.dropdown {
+  margin-top: 15px;
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.dropdown-toggle:hover {
+  color: #f8cb00;
+}
