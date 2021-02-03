@@ -346,6 +346,7 @@ details > summary::-webkit-details-marker {
 .dropdown-toggle {
   cursor: pointer;
 }
-.dropdown-toggle:hover {
+.dropdown-toggle:hover,
+ul li a:hover {
   color: #f8cb00;
 }
