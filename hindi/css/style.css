@@ -1,0 +1,352 @@
+/*Navigation*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Marck+Script";
+
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom,
+.navbar-brand,
+.navbar-toggle {
+  padding: 4px 6px !important;
+  font-size: 16px;
+  color: #fff !important;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+}
+
+.navbar-custom a {
+  color: #fff;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+  outline: 0;
+  color: #f8cb00;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+  color: #a9a9a9;
+}
+.menu_img {
+  padding-top: 10px;
+}
+
+.page-scroll {
+  font-size: 12px;
+}
+
+@media (min-width: 980px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: #000;
+  }
+  #nav-modified {
+    margin-left: 3%;
+  }
+  .cont_extra {
+    padding-top: 5%;
+  }
+}
+@media (max-width: 767px) {
+  .menu_img {
+    padding-left: 10px;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+  .cont_extra {
+    padding-top: 10px;
+  }
+  .navbar-custom a {
+    color: #fff;
+  }
+  .navbar-custom .nav li a:hover {
+    color: #a9a9a9;
+  }
+  .sm-links {
+    float: right;
+    position: relative !important;
+    padding-top: 14px !important;
+  }
+}
+.text_cursive {
+  font-style: oblique;
+}
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+#cover_quote {
+  padding: 5px;
+  padding-top: 10px;
+}
+.quote_part {
+  font-size: 20px !important;
+}
+
+#video_heading {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 1.1em;
+  padding-bottom: 0.6em;
+}
+
+/* Cuuustom */
+
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+
+.box {
+  border-radius: 4px;
+  background: #f1f1f1;
+  padding: 20px 40px;
+}
+
+a,
+a:hover {
+  font-weight: 500;
+  color: #f62459;
+  text-decoration: none;
+}
+
+p.lead {
+  letter-spacing: 1.5px;
+  line-height: 170%;
+  font-size: 1.2em;
+}
+
+/* Preseeded.preseedApp.com */
+
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.featurette {
+  overflow: hidden;
+}
+
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+.panel1-2 {
+  width: 60%;
+}
+@media only screen and (max-width: 750px) {
+  .panel1-2 {
+    width: 95%;
+  }
+}
+.sm-links {
+  margin-right: 1px;
+}
+.weblabiframe-height {
+  overflow: hidden;
+  height: 250vh;
+}
+@media only screen and (max-width: 800px) {
+  .weblabiframe-height {
+    overflow: hidden;
+    height: 530vh !important;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 6px !important;
+  }
+}
+
+summary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.123);
+  color: rgb(255, 0, 64);
+  padding: 1.8rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.966);
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+}
+summary:hover,
+.yel-b:hover {
+  color: #000 !important;
+}
+
+.yel-sm-btn {
+  font-size: 1.3rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 1px rgb(255, 208, 0) !important;
+  color: rgb(255, 0, 64);
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 217, 0, 0.966) !important;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px !important;
+  text-align: center;
+  width: 60% !important;
+  text-decoration: none !important;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+}
+details > .iconbtn::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+  top: 15px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  left: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-minus:after,
+.plus-minus .collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.plus-minus:after {
+  content: "-";
+  top: -1px;
+}
+.plus-minus .collapsed:after {
+  content: "+";
+  top: 0;
+}
+.faq__content {
+  background-color: transparent;
+  padding: 15px;
+}
+.ayellow {
+  color: rgb(255, 208, 0) !important;
+}
+@media screen and (min-width: 800px) {
+  .panel {
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .panel {
+    width: 80% !important;
+  }
+}
+.dropdown-menu li:hover {
+  background-color: black;
+  color: #fff;
+}
+.dropdown {
+  margin-top: 15px;
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.dropdown-toggle:hover,
+ul li a:hover {
+  color: #f8cb00;
+}
